@@ -130,14 +130,14 @@ if 1:
         if female_check_box_age: column_list.append('Female')
 
     with line_graph_column2:
-        print(column_list)
         if column_list:
             data_age_line_graph = data_age.copy()
             data_age_line_graph.columns = ['Age', 'Both Sexes', 'Male', 'Female']
             line_graph = px.line(data_age_line_graph, x='Age', y=column_list)
             st.plotly_chart(line_graph)
 
-
+st.markdown('***')
+st.markdown('###### Data Source: https://www.who.int/data/gho/data/themes/mental-health/suicide-rates')
 
 hide_st_style = """
 <style>
