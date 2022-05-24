@@ -1,6 +1,6 @@
 # AzSuicideDataVisualization
 
 ## Instalition
-pip install poetry <br />
+**pip install poetry <br />
 poetry install <br />
-streamlit run app\main.py
+streamlit run app\main.py**
