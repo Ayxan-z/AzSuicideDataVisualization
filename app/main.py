@@ -21,7 +21,6 @@ data_year_filter_year = st.sidebar.multiselect(
     default = data_year['Year'].unique()
 )
 
-
 data_year_selection = data_year.query(
     'Year == @data_year_filter_year'
 )
