@@ -12,7 +12,7 @@ st.set_page_config(page_title='Azerbaijan Suicide Data',
                     page_icon=':bar_chart:',
                     layout='wide')
 
-####################################### Data by Age #######################################
+####################################### Data by Year #######################################
 
 data_year = pd.read_excel(os.path.join(data_location, 'azerbaijan_suicide_data.xlsx'), sheet_name='year')
 
